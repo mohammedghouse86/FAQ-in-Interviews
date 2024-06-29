@@ -16,13 +16,17 @@ function BasicExample() {
                 <Navbar.Brand to="/"><Link className={`nav-link ${location.pathname === "/" ? "active p-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" : ""}`} aria-current="page" to="/">TEST SCRIPTS FOR INTERVIEW</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-
-                        
+                    <Nav className="me-auto">                      
 
                         <Link className={`nav-link ${location.pathname === "/lazyload" ? "active p-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" : ""}`} aria-current="page" to="/lazyload">Lazy Loading</Link>
 
                         <Link className={`nav-link ${location.pathname === "/photospagination" ? "active p-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" : ""}`} aria-current="page" to="/photospagination">Photos Pagination</Link>
+
+                        <Link className={`nav-link ${location.pathname === "/customhooks" ? "active p-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" : ""}`} aria-current="page" to="/customhooks">Custom Hooks</Link>
+
+                        <Link className={`nav-link ${location.pathname === "/useRef" ? "active p-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" : ""}`} aria-current="page" to="/useRef">UseRef</Link>
+
+                        <Link className={`nav-link ${location.pathname === "/interviewQ&A" ? "active p-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" : ""}`} aria-current="page" to="/interviewQ&A">InterviewQuestions</Link>
 
                         <Nav.Link href="#link">Link</Nav.Link>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
